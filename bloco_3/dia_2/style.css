@@ -1,0 +1,50 @@
+body{
+    background-color: black;
+    font-size: 16px;
+}
+@font-face {
+font-family: "IBM Plex Sans Roman";
+src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/85648/IBMPlexSansVar-Roman.ttf");
+}
+h1{
+    font-size: 65px;
+    color: orange;
+    font-family: "IBM Plex Sans Roman", sans-serif;
+    text-decoration: underline;
+    animation: breathe 4000ms infinite forwards;
+}
+
+@keyframes breathe {
+60% {
+font-variation-settings: 'wght' 700, 'wdth' 100;
+}
+
+100% {
+font-variation-settings: 'wght' 100, 'wdth' 85;
+}
+}
+
+ul{
+    background-color: orchid;
+    text-align: center;
+    font-weight: bold;
+    line-height: 40px;
+    
+}
+.bg-color{
+    background-color: powderblue;
+}
+p{
+    font-weight: 600;
+    font-size: 3em;
+    font-style: italic;
+}
+#red{
+    background-color: red;
+}
+#yellow{
+    background-color: yellow;
+}
+#brown{
+    background-color: brown;
+}
