@@ -63,6 +63,12 @@ header a{
     
 }
 
+.video {
+    align-items: center;
+    margin: auto;
+  width: 50%;
+}
+
 footer {
     background-color: lawngreen;
     text-align: right;
@@ -70,3 +76,4 @@ footer {
 footer p {
     margin-bottom: 0;
 }
+
