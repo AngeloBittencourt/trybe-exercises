@@ -11,7 +11,8 @@ article{
 .header {
 
     margin: auto;
-background-color: rgba(240, 82, 42, 0.877);
+    background-image: url(https://febreteen.com.br/wp-content/uploads/2015/07/bg-top-min.png) !important;
+/* background-color: rgba(240, 82, 42, 0.877); */
 
 }
 .header h1 {
@@ -19,7 +20,7 @@ background-color: rgba(240, 82, 42, 0.877);
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
     margin-top: 0;
-background-color: rgba(240, 82, 42, 0.877);
+/* background-color: rgba(240, 82, 42, 0.877); */
 
 }
 .header li{
@@ -41,7 +42,7 @@ header a{
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 nav {
-    padding-bottom: 1px;
+    padding-bottom: 3px;
 }
 nav a:hover {
     background-color: aliceblue;
@@ -51,6 +52,7 @@ nav a:hover {
     list-style-type: none;
     display: inline-block;
     margin-right: 20px;
+    align-content:inherit;
  
 }
 
