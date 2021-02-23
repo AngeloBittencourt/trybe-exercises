@@ -1,0 +1,101 @@
+body{
+    font-family:Tahoma, Geneva, Verdana, sans-serif ;
+margin: 0px;
+background-color: rgb(200, 216, 224);
+}
+
+header{
+    background-image: url(https://drncvpyikhjv3.cloudfront.net/sites/131/2016/09/21101909/blue-background-header-1.png);
+    background-repeat:inherit;
+    height: 300px;
+    
+}
+nav{
+padding-top: 5px;
+height: 25px;
+background-image: url(https://ab60k6ltry3s9gd53px0mr16-wpengine.netdna-ssl.com/wp-content/uploads/2013/09/header-b88d930b520c523ef8a53abfb86d75231.png);
+}
+
+nav ul{
+    margin-top: 0px;
+}
+nav li {
+    display: inline-block;
+}
+
+nav a{
+    padding-left: 32px;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+nav a:hover{
+    opacity: 0.6;
+}
+
+h1{
+    font-family: monospace;
+    font-size: 45px;
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 110px;
+}
+h2{
+text-align: center;
+font-size: 35px;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+
+.principal{
+    
+    margin: 10px;
+}
+
+main{
+    
+    display: inline-block;
+    width: 80%;
+}
+
+
+br{
+    border-top-width:2px;
+}
+
+aside{
+    text-align:justify;
+    margin-top: 80px;
+    float: right;
+    display: inline-block;
+    background-color: rgb(213, 228, 236) ;
+    height:680px;
+    width: 19%;
+    
+}
+aside h3{
+    padding-left: 10px;
+}
+aside ul{
+    
+    list-style-type:"-";
+    line-height: 1.5;
+    padding-left: 5px;
+}
+aside li:hover{
+    opacity: 0.6;
+}
+
+footer{
+    color: whitesmoke;
+    text-align: right;
+    padding-top: 5px;
+    height: 25px;
+    background-image: url(https://ab60k6ltry3s9gd53px0mr16-wpengine.netdna-ssl.com/wp-content/uploads/2013/09/header-b88d930b520c523ef8a53abfb86d75231.png);
+    margin: 0px;    
+}
+footer p{
+    margin: 0px 5px;
+}
